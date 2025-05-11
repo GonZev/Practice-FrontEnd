@@ -1,0 +1,100 @@
+html {
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+
+.navbar > p {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 12px 10px;
+}
+
+.navbar > p:nth-child(1) {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.cover {
+  text-align: center;
+  padding-top: 200px;
+  height: 79.9vh;
+  scroll-snap-align: start;
+}
+
+img {
+  align-self: center;
+  width: 20vw;
+  height: auto;
+  box-shadow: -8px 6px 10px 4px rgba(0, 0, 0, 0.322);
+}
+
+.description {
+  width: 300px;
+  height: auto;
+  position: fixed;
+  bottom: 14px;
+  padding: 0px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.volumen {
+  display: grid;
+  position: fixed;
+  bottom: 30px;
+  right: 0px;
+  margin: 0px 10px;
+}
+
+#issue-eight {
+  background-color: #017d8b;
+}
+
+#issue-seven {
+  background-color: #c55cdf;
+}
+
+#issue-six {
+  background-color: #df4c20;
+}
+
+#issue-five {
+  background-color: #062e55;
+}
+
+#issue-four {
+  background-color: #14334e;
+}
+
+#issue-three {
+  background-color: #675d49;
+}
+
+#issue-two {
+  background-color: #dfd2c9;
+}
+
+#issue-one {
+  background-color: #e4a501;
+}
