@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #4c525a;
+  background-color: #ffffff;
+
+  font-family: "Proximanova opt", sans-serif;
+}
+
+.navbar {
+  padding: 0px 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar > h1 {
+  color: #00b289;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropdown-btn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn-navbar {
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+#btn-login {
+  border: 1px solid #00b289;
+  background-color: transparent;
+}
+
+#btn-start-free {
+  color: white;
+  background-color: #00b289;
+  border: none;
+}
+
+/* ------------------------------- */
+
+.main {
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+.top-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 8vh;
+}
+
+.top-content > p {
+  margin-right: 50px;
+  font-size: 32px;
+}
+
+.switch-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+label {
+  margin: 0px 32px;
+}
+
+/* ----------------------- */
+
+.prices-content {
+  display: flex;
+  justify-content: center;
+}
+
+.prices {
+  width: 18vw;
+  padding: 40px;
+  margin: 20px;
+  border: 1px solid rgba(2, 4, 69, 0.15);
+  border-radius: 6px;
+  position: relative;
+  background-color: #fbfcff;
+  box-shadow: 0 0 40px rgba(2, 4, 69, 0.08);
+}
+
+.prices > p {
+  text-align: left;
+}
+
+.price-type {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tax {
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  margin: 0;
+  padding: 0;
+}
+
+.tax > p:last-child,
+.tax > p:first-child {
+  font-size: 28px;
+  margin: 0;
+}
+
+.tax > p:first-child {
+  margin-bottom: auto;
+}
+.tax > p:last-child {
+  margin-top: auto;
+}
+.price-number {
+  margin: 0 12px;
+  font-weight: bolder;
+  font-size: 80px;
+}
+.prices > ul {
+  margin-bottom: 50%;
+}
+.prices > ul > li {
+  text-align: left;
+  margin: 22px 0;
+}
+
+.prices > button {
+  padding: 18px;
+  position: absolute;
+  bottom: 5%;
+  left: 20px;
+  right: 20px;
+  background-color: #00a37e;
+  border-radius: 4px;
+  color: white;
+}
+
+.addons {
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.addons > h3 {
+  font-size: 34px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.addons-item {
+  width: 64%;
+  /* height: 150px; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 2em 0;
+  /* align-content: space-around; */
+
+  background-color: white;
+  box-shadow: 0 0 18px lightgray;
+}
+
+.addons-text {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.addons-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.addon-description {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+
+.addons-price {
+  text-align: center;
+  justify-content: center;
+  margin: 0 40px;
+}
+
+.addons-price > p:first-child {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.addons-price > p:last-child {
+  margin: 0;
+}
+
+.message {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 40px 0;
+  margin: 100px auto;
+
+  width: 70%;
+
+  background-color: #f2faff;
+
+  border-radius: 8px;
+}
+
+.message-text {
+  text-align: left;
+
+  margin-top: 0px;
+  margin-left: 24px;
+
+  font-size: 32px;
+
+  font-family: "Amerigo-bt roman opt", sans-serif;
+}
+
+#btn-message {
+  width: 15%;
+  height: 10%;
+  padding: 18px;
+  margin: auto 0;
+
+  border-radius: 8px;
+
+  background-color: #00a37e;
+  color: white;
+}
+
+/* faq */
+
+.faq-content > h3 {
+  color: #00a37e;
+  font-size: 32px;
+}
+
+.faq-item {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  color: #4c525a;
+
+  margin-left: 0;
+}
+
+.faq-question:hover {
+  color: #00b289;
+}
+
+.faq-answer {
+  font-size: 16px;
+
+  margin-left: 0;
+  margin-top: 10px;
+}
