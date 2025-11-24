@@ -7,13 +7,16 @@
   --grey-color: #f2f3f3;
 }
 
+html {
+  font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
 
   background-color: var(--bg-color);
 
-  font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -416,8 +419,9 @@ footer {
   margin: 1rem auto;
   margin-left: 0;
 
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 1.2rem;
+  color: #1fe374;
 }
 
 #options-footer ul {
